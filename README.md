@@ -22,6 +22,14 @@ different from the original. This change only happened in the package config
 Package name is different but versioning continues as before without any change.
 
 ## __30/11/2020:__ How to get this version into Atom?
-_coming soon..._
+First, you should disable the original `language-cmake` package, so these two
+do not interfere.
+
+```sh
+apm install https://github.com/TrinityCoder/language-cmake.git
+```
+
+That's all; `language-cmake-2` is installed in your Atom editor, you can find it in
+Settings -> Packages -> Git Packages.
 
 [1]: package.json
